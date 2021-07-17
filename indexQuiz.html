@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Promises Quiz</title>
+	<script defer src="JS/promise.js"></script>
+	<!-- <script defer src="JS/callback.js"></script> -->
+	<script defer src="main.js"></script>
+</head>
+<body>
+	<div class = "wrapper main">
+        <div id="homePage">
+            <label for=numberOfQ>Número de preguntas a generar:</label><br>
+            <input type="number" id="numberOfQ" name="numberOfQ"><br><br>
+        </div>
+        <form id="questionPack" class="column">
+            <div id="containerPack" class="column"></div>
+        </form>
+        <br>
+        <div id="buttons">
+            <button id="startButton" class="welcomeButton" type="button">Comenzar</button><br>
+            <input id="resetButton" class="welcomeButton" type="reset" value="Borrar"><br>
+            <a href="index.html" class="welcomeButton">Salir</a>
+        </div>
+    </div>
+
+	<div class="ct-chart ct-perfect-fourth"></div>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+</body>
+</html>
